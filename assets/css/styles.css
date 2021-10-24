@@ -272,3 +272,26 @@ input {
   }
 }
 
+@media (min-width: 300px) {
+  h1 {
+    padding-left: 331px;
+    padding-top: 0px;
+    color: var(--bs-body-bg);
+  }
+}
+
+@media (min-width: 300px) {
+  .h1, h1 {
+    font-size: calc(1.375rem + 1.5vw);
+  }
+}
+
+@media (min-width: 300px) {
+  .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+  }
+}
+
